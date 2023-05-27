@@ -2,10 +2,15 @@ The provided code is a Python script that generates a random password and stores
 Let's break down the code step by step:
 
 1.The code begins by importing the necessary modules: string, random, and writer from the csv module.
+
 2.The function passgen() is defined. This function generates a random password and saves it in a CSV file.
+
 3.The variables s1, s2, s3, and s4 are initialized with different character sets: lowercase letters, uppercase letters, digits, and punctuation marks, respectively.    These character sets are provided by the string module.
+
 4.The user is prompted to enter the name of the platform for which they want to generate a password.
+
 5.The user is prompted to enter the desired length of the password.
+
 6.An empty list s is created to store all possible characters for the password.
 7.The characters from each character set are added to the list s by converting them into lists using the list() function and then extending the s list with these
   lists.
